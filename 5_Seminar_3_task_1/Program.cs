@@ -4,7 +4,7 @@
 */
 
 Console.WriteLine("Enter quarter coordinate: ");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine()!);
 
 switch (number) {
     case 1:

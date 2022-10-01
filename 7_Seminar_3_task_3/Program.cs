@@ -9,16 +9,16 @@ Math.Sqrt
 */
 
 Console.WriteLine("Enter starting cordinat X: ");
-int xD = int.Parse(Console.ReadLine());
+int xD = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Enter starting cordinat Y: ");
-int yD = int.Parse(Console.ReadLine());
+int yD = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Enter ending cordinat X: ");
-int xF = int.Parse(Console.ReadLine());
+int xF = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Enter ending cordinat Y: ");
-int yF = int.Parse(Console.ReadLine());
+int yF = int.Parse(Console.ReadLine()!);
 
 double resultPoint = Math.Sqrt(Math.Pow(xF-xD, 2)+Math.Pow(yF-yD, 2));
 

@@ -4,10 +4,10 @@
 */
 
 Console.WriteLine("Enter X: ");
-int x = int.Parse(Console.ReadLine());
+int x = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Enter Y: ");
-int y = int.Parse(Console.ReadLine());
+int y = int.Parse(Console.ReadLine()!);
 
 if ((x>0)&&(y>0)) {
     Console.WriteLine("You are on the 1-st quarter");

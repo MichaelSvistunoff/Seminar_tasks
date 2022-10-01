@@ -1,11 +1,11 @@
 ﻿Console.WriteLine("Choose number of operation: ");
-int choosenNumber = int.Parse(Console.ReadLine());
+int choosenNumber = int.Parse(Console.ReadLine()!);
 
 
 if (choosenNumber==1) {
 
     Console.WriteLine("Enter number: ");
-    int number = int.Parse(Console.ReadLine());
+    int number = int.Parse(Console.ReadLine()!);
     if (number<100) {
         Console.WriteLine("Your number less then 100!");   
     } 
@@ -29,7 +29,7 @@ if (choosenNumber==1) {
 
 if (choosenNumber==2) {
     Console.WriteLine("Enter number: ");
-    string number = Console.ReadLine();
+    string number = Console.ReadLine()!;
     if (number.Length<3){
         Console.WriteLine("Error!");
     } else {
