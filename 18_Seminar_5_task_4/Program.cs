@@ -27,7 +27,7 @@ int[] getArray(int size) {
 int isFiltered(int[] filteredArray, int minValue, int maxValue) {
     int count = 0;
     for (int i=0;i<filteredArray.Length; i++) {
-        if ((filteredArray[i]>=minValue)&&(filteredArray[i]<=maxValue)) {
+        if (filteredArray[i]>=minValue && filteredArray[i]<=maxValue) {
             count++;
         }
     }
